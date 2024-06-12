@@ -1,0 +1,26 @@
+.container-text{
+    display: flex;
+    margin-left: 22vh;
+    margin-top: 10vh;
+    gap:750px;
+    font-size: 30px;
+}
+
+.container-perfumes {
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-around;
+    object-fit: contain;
+    transition: box-shadow 0.3s ease-in-out;
+    margin-top: 9vh;
+    border:none;
+}
+
+.container-perfumes img:hover{
+    box-shadow: 2px 15px 15px 15px rgba(0, 0, 0, 0.693);
+    transform: scale(1.03);
+}
+.container-perfumes img {
+    height: auto;
+    width: 80%;
+}
